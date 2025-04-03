@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import fetchNews from "../api";
 
 function ArticlePage() {
-  const { id } = useParams();
+  const { id } = useParams(); // Get the article ID from the URL
   const [article, setArticle] = useState(null);
 
   useEffect(() => {

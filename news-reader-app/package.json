@@ -7,12 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./src/index.css --watch"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "dev": "vite"
+    "dev": "vite",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.21",
+      "autoprefixer": "^10.4.13"
     
   },
   "devDependencies": {
